@@ -1,2 +1,4 @@
-class ApplicationController < ActionController::Base
+class A pplicationController < ActionController::Base
+  protect_from_forgery with: :exception
+  include SessionsHelper
 end
